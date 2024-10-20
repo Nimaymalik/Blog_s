@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(206, 224, 247);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+div {
+  width: 450px;
+  height: 450px;
+  margin: 20px auto;
+  border: 2px solid black;
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+p {
+  border: 10%;
+  border-radius: 50%;
+  font-size: 24px;
+  text-align: center;
+}
+a {
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 20px;
+  padding: 10px 75px;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+h2,
+h3 {
+  font-size: 24px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  width: 350px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+button {
+
+  padding: 10px 75px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: darkblue; /* Darker blue on hover */
+}

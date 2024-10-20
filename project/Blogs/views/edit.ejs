@@ -1,0 +1,16 @@
+
+<%- include('./partials/header') %>
+
+<h1>Form to edit a Blog</h1>
+
+<form action="/blogs/<%=foundProduct.id%>?_method=PATCH" method="POST">
+    
+    <section>
+        <label for="blogs">Comment: </label>
+        <br>
+        <textarea name="comment" id="blogs" cols="40" rows="7"> <%=foundProduct.comment%> </textarea>
+    </section>
+    <button type="submit">Edit blog</button>
+</form>
+
+

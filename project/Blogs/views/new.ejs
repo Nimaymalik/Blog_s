@@ -1,0 +1,21 @@
+<!-- done -->
+<%- include('./partials/header') %>
+
+<form action="/blogs" method="post">
+  <section>
+    <label for="">Title:</label>
+    <input type="text" name="title" id="title" />
+  </section>
+
+  <section>
+    <label for="">Author:</label>
+    <input type="text" name="author" id="author" />
+  </section>
+
+  <section>
+    <label for="comment">comment:</label>
+    <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+  </section>
+  <button type="submit">ADD</button>
+</form>
+

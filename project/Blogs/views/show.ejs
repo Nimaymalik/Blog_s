@@ -1,0 +1,16 @@
+<%- include('./partials/showheader') %>
+<h1>Showing a particular Blog</h1>
+
+<div>
+  <h1><%=foundProduct.id%></h1>
+  <h2><%=foundProduct.title%></h2>
+  <h3><%=foundProduct.author%></h3>
+  <p><%=foundProduct.comment%></p>
+
+  <a href="/blogs">Back</a>
+  <a href="/blogs/<%=foundProduct.id%>/edit">Edit</a>
+
+  <form action="/blogs/<%=foundProduct.id%>?_method=DELETE" method="POST">
+    <button type="submit">Delete</button>
+  </form>
+</div>
