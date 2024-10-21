@@ -14,7 +14,7 @@ app.use(methodOverride("_method"));
 
 mongoose
   .connect(
-    "mongodb+srv://nimaymalik12:nimay123@cluster0.pld6z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://idname:<password>@cluster0.pld6z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
     console.log("Connection found");
